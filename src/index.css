@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-display;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl lg:text-3xl font-display;
+  }
+
+  body {
+    @apply font-sans text-base md:text-lg text-earth-800;
+  }
+
+  p {
+    @apply text-sm md:text-base lg:text-lg;
+  }
+}
+
+@layer components {
+  .animate-fade-up {
+    opacity: 0;
+    animation: fade-up 0.8s ease forwards;
+  }
+
+  .animate-fade-in {
+    opacity: 0;
+    animation: fade-in 0.8s ease forwards;
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(34, 27, 11, 0.4) 0%,
+    rgba(34, 27, 11, 0.8) 100%
+  );
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
