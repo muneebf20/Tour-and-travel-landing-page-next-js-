@@ -30,3 +30,48 @@ Check out the live demo: [Live Site](#)
 1. Clone the repository:
    ```bash
    git clone https://github.com/muneebf20/Tour-and-travel-landing-page-next-js-.git
+
+2. Navigate to the project folder
+   ```bash
+   cd Tour-and-travel-landing-page-next-js-
+3. Install dependencies
+   ```bash
+   npm install
+4. Run the development server:
+   ```bash
+   npm run dev
+5. Open your browser and navigate to http://localhost:5173 ( depends upon port used)
+
+
+## **🖼️ Screenshots**
+### **Homepage**
+![Homepage Screenshot](https://via.placeholder.com/800x400.png?text=Homepage+Screenshot)
+
+## **📚 Technologies Used**
+- **Next.js**: Framework for React.
+- **React.js**: For building UI components.
+- **CSS/SCSS**: Styling and responsive design.
+- **Vercel**: For deployment.
+
+## **💡 Usage**
+Customize the content to suit your travel business:
+- Update `components` to modify UI sections.
+- Edit `pages/index.js` to change page content.
+- Modify CSS files for custom styling.
+
+## **🤝 Contributing**
+Contributions are welcome! Here's how:
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+
+## **📜 License**
+This project is licensed under the MIT License.
+
+## **📧 Contact**
+For inquiries or collaboration:
+- **Email**: info@muneebtech.in
+- **GitHub**: muneebf20
+- **website**: https://muneebtech.in/
+
