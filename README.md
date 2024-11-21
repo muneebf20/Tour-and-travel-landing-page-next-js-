@@ -1,6 +1,5 @@
 # **Tour and Travel Landing Page (Next.js)**
 
-![Landing Page Preview](https://via.placeholder.com/800x400.png?text=Landing+Page+Screenshot)
 
 A modern and responsive landing page built with **Next.js** for tour and travel businesses. This project showcases elegant design, optimized performance, and scalability for web applications.
 
@@ -16,7 +15,7 @@ A modern and responsive landing page built with **Next.js** for tour and travel 
 ---
 
 ## **🚀 Demo**
-Check out the live demo: [Live Site](#)
+Check out the live demo: [Live Site](https://kashmirtourpackage.himalayanmountainsports.com/)
 
 ---
 
@@ -45,7 +44,6 @@ Check out the live demo: [Live Site](#)
 
 ## **🖼️ Screenshots**
 ### **Homepage**
-![Homepage Screenshot](https://via.placeholder.com/800x400.png?text=Homepage+Screenshot)
 
 ## **📚 Technologies Used**
 - **Next.js**: Framework for React.
